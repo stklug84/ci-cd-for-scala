@@ -79,8 +79,9 @@ object Settings {
       * @note: repositories must be appended to not override global settings in /home/klg1rt/.sbt/repositories
       *
       */
-    resolvers += "Maven-Central" at  "https://repo1.maven.org/maven2/",
-    resolvers += "Artima Maven Repository" at "https://repo.artima.com/releases",
+    resolvers += "Maven-Central" at "https://repo1.maven.org/maven2/",
+    resolvers += "Cloudera Repository" at "https://repository.cloudera.com/artifactory/cloudera-repos/",
+      // resolvers += "Artima Maven Repository" at "https://repo.artima.com/releases",
 
     /** Publish configuration --> should be defined in separate file.scala */
     // Disable publishing the main API jar
