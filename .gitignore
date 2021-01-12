@@ -1,0 +1,61 @@
+# ignore global .gitignore
+!*
+*.orig
+
+
+# JVM-specific
+*.class
+
+
+# sbt-specific
+.cache
+.history
+.lib/
+dist/*
+.sbtopts
+target/
+lib_managed/
+src_managed/
+project/target
+**/target/
+
+
+# IntelliJ-specific
+*/.idea/*
+.idea/
+*/java-*
+*/scala-*
+
+
+# ENSIME-specific
+.ensime_cache/
+.ensime
+ensime.sbt
+
+
+# VSCode-specific
+.vscode/*
+
+
+# Scala-Metals-specific
+*metals.sbt
+.metals/
+.bloop/
+
+
+# Scaladoc-specific
+*.html
+*.js
+lib/*
+
+
+# Unit tests: Derby log
+*.log
+
+
+# Templates
+.generate-directories.sh
+
+
+# Spark
+spark-warehouse/
