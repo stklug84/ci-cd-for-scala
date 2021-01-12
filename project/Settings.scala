@@ -79,6 +79,7 @@ object Settings {
       * @note: repositories must be appended to not override global settings in /home/klg1rt/.sbt/repositories
       *
       */
+    resolvers += "Maven-Central" at  "https://repo1.maven.org/maven2/",
     resolvers += "Artima Maven Repository" at "https://repo.artima.com/releases",
 
     /** Publish configuration --> should be defined in separate file.scala */
