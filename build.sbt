@@ -3,7 +3,6 @@ import Testing._
 
 // Project definition
 lazy val root = (project in file("."))
-  .enablePlugins(GitVersioning, GitBranchPrompt)
   .configs(IntegrationTest)
   .settings(
     testSettings,
