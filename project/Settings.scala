@@ -98,8 +98,7 @@ object Settings {
       * @note: repositories must be appended to not override global settings in /home/klg1rt/.sbt/repositories
       *
       */
-    // resolvers += ("cloudera" at "http://repository.cloudera.com/artifactory/cloudera-repos/")
-    //   .withAllowInsecureProtocol(true),
+    resolvers += "Artima Maven Repository" at "http://repo.artima.com/releases",
 
     /** Publish configuration --> should be defined in separate file.scala */
     // Disable publishing the main API jar
